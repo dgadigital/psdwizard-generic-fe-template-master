@@ -1,0 +1,36 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.home {
+  transition: all .2s ease-in-out;
+  
+  .section-intro {
+    padding: 40px 0;
+
+    text-align: center;
+  }
+}
+
+
+.swiper-container {
+  margin-top: 40px;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+
+  border: 2px #007aff solid;
+  border-radius: 3px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
