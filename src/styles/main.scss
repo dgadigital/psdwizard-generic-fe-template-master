@@ -29,10 +29,12 @@
 
 // 5. Components
 @import
+  'components/training',
+  'components/card-links',
   'components/search';
 
 // 6. Page-specific styles
-// @import
-//   'pages/home';
+@import
+  'pages/login';
 
 

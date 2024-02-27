@@ -15,7 +15,8 @@
     .news-list-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 15px;
     }
 
     .news {
@@ -44,7 +45,7 @@
             }
         }
 
-        .date {
+        .post-date {
             font-family: "Raleway Bold";
             margin-top: 10px;
             margin-bottom: 5px;
