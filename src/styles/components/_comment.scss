@@ -1,0 +1,44 @@
+.comment .comment-meta {
+    display: flex;
+    align-items: center;
+}
+.comment .comment-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 35px;
+    max-height: 35px;
+}
+.comment .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7px;
+}
+.comment .comment-author {
+    font-size: 12px;
+    font-family: "Raleway Semi-Bold";
+    color: #f5882b;
+}
+.comment .comment-time {
+    font-size: 12px;
+}
+.comment-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.new-comments ~ h3 {
+    font-family: "Raleway Semi-Bold";
+    font-size: 16px;
+}
+
+.comment-form .btn {
+    padding: 8px 20px 8px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    float: right;
+}
+
+.required-message {
+    color: red;
+    font-size: 12px;
+}
